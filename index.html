@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fruit Hangman!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container-fluid col-sm-10 col-sm-offset-1">
+		<div class="row">
+			<div class="panel panel-default">
+				<h2 class="panel-heading text-center">Fruit Hangman!</h2>
+				<div class="panel-body">
+					<div id="hangman-area">
+						<p id="hangman-prompt"></p>
+						<p id="hangman-word"></p>
+						<p id="hangman-counter">Number of wrong guesses remaining: <span id="hangman-guesses"></span></p>
+						<p id="guess-area">Letters already guessed: <span id="previous-guesses"></span></p>
+						<p id="win-counter">Number of wins: <span id="wins"></span></p>
+						<p>
+							<button class="btn btn-default" id="new-word">New Word</button>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

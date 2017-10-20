@@ -1,0 +1,16 @@
+body {
+	background-image: url(../images/restaurant.png);
+}
+
+.panel-default>.panel-heading {
+	background-color: #c80d4a;
+	color: #d1ded2;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.panel-body {
+	background-image: url(../images/paisley.png);
+}
